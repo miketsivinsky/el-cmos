@@ -1,0 +1,8 @@
+* inverter state machine example
+V1 1 0 pulse(0 1 0 1u 1u .5m 1m)
+R1 2 0 1K ; an impedance for the .output statement
+.machine
+.output (2) V(1) < .5
+.endmachine
+.tran 3m
+.end
