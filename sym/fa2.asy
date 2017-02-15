@@ -1,5 +1,8 @@
 Version 4
 SymbolType BLOCK
+LINE Normal -32 81 -32 -80
+LINE Normal 32 81 32 -80
+LINE Normal 32 81 32 81
 RECTANGLE Normal 96 81 -97 -80
 TEXT -21 -2 Left 2 FA2
 WINDOW 0 -106 -93 Bottom 2
@@ -14,13 +17,7 @@ PINATTR PinName _Cin
 PINATTR SpiceOrder 3
 PIN 96 48 RIGHT 8
 PINATTR PinName _Cout
-PINATTR SpiceOrder 4
-PIN 0 80 BOTTOM 8
-PINATTR PinName GND
 PINATTR SpiceOrder 5
 PIN 96 -32 RIGHT 8
 PINATTR PinName S
-PINATTR SpiceOrder 6
-PIN 0 -80 TOP 8
-PINATTR PinName VDD
-PINATTR SpiceOrder 7
+PINATTR SpiceOrder 4
